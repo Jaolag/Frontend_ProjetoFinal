@@ -10,7 +10,7 @@ function main() {
       const username = input_usuario.value;
       const password = input_senha.value;
   
-      const login_url = "http://127.0.0.1:8000/api/login/";
+      const login_url = "https://projetofinalws.onrender.com/api/login/";
       const opcoes = {
         method: "POST",
         body: JSON.stringify({ username, password }),
